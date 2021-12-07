@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  background-color:#BA8D00;
+  width: 100%;
+  bottom: -40px;
+  position: fixed;
+  opacity: 10%;
+  transition: .5s;
+}
+footer:hover{
+
+  opacity: 100%;
+  bottom: 0;
+}
+.title-footer{
+  margin-bottom: 2px;
+}
+.subtitle-footer{
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+}
